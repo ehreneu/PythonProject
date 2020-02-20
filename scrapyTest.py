@@ -47,6 +47,7 @@ class MySpider(scrapy.Spider):
                 'Image Link': x.xpath(newsel).extract_first(),
             }
 import unittest
+#used to test functions
 class TestMyProgram(unittest.TestCase):
 
     def test_EngineType(self):
